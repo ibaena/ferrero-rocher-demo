@@ -1,0 +1,155 @@
+/*************************
+      Media Queries
+*************************/
+
+
+/*********************************
+    20 Inch Screen (1600x900)
+*********************************/
+
+@media (max-width: 1679px) {
+    .intro-content {
+        font-size: calc(1vw + 8px);
+        font-family: Trajan;
+    }
+    .second-text {
+        font-size: 1em;
+        font-weight: 300;
+        font-family: 'Nunito Sans', sans-serif;
+        line-height: 26px;
+    }
+    .side-note {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: .7em;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .subscript-text {
+        margin-top: 30px;
+        font-size: .64em;
+        font-weight: 500;
+        width: 90%;
+        position: relative;
+        left: 10px;
+    }
+}
+
+
+/*********************************
+    19 Inch Screen (1440x900)
+*********************************/
+
+@media (max-width: 1440px) {
+    .intro-content {
+        font-size: calc(1vw + 7px);
+        font-family: Trajan;
+    }
+    .subscript-text {
+        margin-top: 30px;
+        font-size: .64em;
+        font-weight: 500;
+        width: 100%;
+        position: relative;
+        left: 10px;
+    }
+}
+
+
+/*********************************
+    15 Inch Screen (1366x768)
+*********************************/
+
+@media (max-width: 1367px) {
+    .intro-content {
+        font-size: calc(1vw + 6px);
+        font-family: Trajan;
+    }
+    .second-text {
+        font-size: 1em;
+        font-weight: 300;
+        font-family: 'Nunito Sans', sans-serif;
+        line-height: 20px;
+    }
+    .side-note {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: .7em;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .second-content {
+        margin-top: 5px;
+        padding: 0;
+    }
+    #img-2 {
+        margin-bottom: 10px;
+        position: relative;
+        bottom: 15px;
+    }
+    .subscript-text {
+        margin-top: 20px;
+        font-size: .64em;
+        font-weight: 500;
+        width: 100%;
+        position: relative;
+        left: 10px;
+    }
+    #img-1 {
+        margin-top: 30px;
+    }
+    .small-intro {
+        margin-top: 5px;
+        font-size: .7em;
+        font-family: Trajan;
+    }
+}
+
+
+/*********************************
+    13 Inch Screen (1280x800)
+*********************************/
+
+@media (max-width: 1281px) {
+    .subscript-text {
+        margin-top: 20px;
+        font-size: .62em;
+        font-weight: 500;
+        width: 100%;
+        position: relative;
+        left: 10px;
+    }
+}
+
+
+/*********************************
+    12 Inch Screen (1024x768)
+*********************************/
+
+@media (max-width: 1025px) {
+    .intro-content {
+        font-size: calc(1vw + 4px);
+        font-family: Trajan;
+    }
+    .second-text {
+        font-size: .8em;
+        font-weight: 300;
+        font-family: 'Nunito Sans', sans-serif;
+        line-height: 17px;
+    }
+    .side-note {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: .63em;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .subscript-text {
+        margin-top: 30px;
+        font-size: .62em;
+        font-weight: 500;
+        width: 350px;
+        position: relative;
+        left: 10px;
+    }
+    #img-1 {
+        margin-top: 60px;
+    }
+}
