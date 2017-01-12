@@ -7,13 +7,13 @@
     20 Inch Screen (1600x900)
 *********************************/
 
-@media (max-width: 1679px) {
+@media (max-width: 1680px) {
     .intro-content {
-        font-size: calc(1vw + 8px);
+        font-size: calc(1vw + 5px);
         font-family: Trajan;
     }
     .second-text {
-        font-size: 1em;
+        font-size: 1.2em;
         font-weight: 300;
         font-family: 'Nunito Sans', sans-serif;
         line-height: 26px;
@@ -32,6 +32,16 @@
         position: relative;
         left: 10px;
     }
+    .center-image {
+        height: 100vh;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        align-content: center;
+        align-items: center;
+        position: inherit;
+    }
 }
 
 
@@ -41,7 +51,7 @@
 
 @media (max-width: 1440px) {
     .intro-content {
-        font-size: calc(1vw + 7px);
+        font-size: calc(1vw + 4px);
         font-family: Trajan;
     }
     .subscript-text {
@@ -61,7 +71,7 @@
 
 @media (max-width: 1367px) {
     .intro-content {
-        font-size: calc(1vw + 6px);
+        font-size: calc(1vw + 4px);
         font-family: Trajan;
     }
     .second-text {
@@ -98,7 +108,7 @@
     }
     .small-intro {
         margin-top: 5px;
-        font-size: .7em;
+        font-size: .735em;
         font-family: Trajan;
     }
 }
@@ -113,7 +123,7 @@
         margin-top: 20px;
         font-size: .62em;
         font-weight: 500;
-        width: 100%;
+        width: 350px;
         position: relative;
         left: 10px;
     }
@@ -124,9 +134,9 @@
     12 Inch Screen (1024x768)
 *********************************/
 
-@media (max-width: 1025px) {
+@media (max-width: 1278px) and (min-width: 1024px) {
     .intro-content {
-        font-size: calc(1vw + 4px);
+        font-size: calc(1vw + 2px);
         font-family: Trajan;
     }
     .second-text {
@@ -150,6 +160,202 @@
         left: 10px;
     }
     #img-1 {
-        margin-top: 60px;
+        margin-top: 20px;
+    }
+}
+
+
+/************************************
+    Ipad Screen (1024x768) Portrait
+*************************************/
+
+@media (max-width: 1022px) and (min-width:767px) {
+    .center-image {
+        height: 100vh;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        align-content: center;
+        align-items: center;
+        position: inherit;
+    }
+    #main-content {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    #center-content {
+        position: relative;
+    }
+    .second-image {
+        display: block;
+        margin: 0 auto;
+        float: none !important;
+        width: 250px;
+        margin-top: 25px;
+    }
+}
+
+
+/************************************
+    Mobile (320x667) Portrait
+*************************************/
+
+@media (max-width: 320px) {
+    #main {
+        height: 100vh;
+        width: 100%;
+        /*background: #a6233f;*/
+        background-image: url('./assets/left-side.png');
+        background-size: cover;
+    }
+    .center-image {
+        height: 100vh;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        align-content: center;
+        align-items: center;
+        position: inherit;
+    }
+    #main-content {
+        position: absolute;
+        top: 0;
+    }
+    #center-content {
+        position: relative;
+    }
+    .second-image {
+        display: block;
+        margin: 0 auto;
+        float: none !important;
+        width: 100px;
+        margin-top: 0;
+    }
+    .intro-content {
+        font-size: calc(1vw + 5px);
+        font-family: Trajan;
+    }
+    .second-text {
+        font-size: 0.63em;
+        font-weight: 300;
+        font-family: 'Nunito Sans', sans-serif;
+        line-height: 10px;
+    }
+    .second-content {
+        margin-top: 0px;
+        padding: 0;
+    }
+    .side-note {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: .5em;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    #img-1 {
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+    #img-2 {
+        margin-bottom: 10px;
+        position: relative;
+        bottom: 3px;
+    }
+    .submit-image {
+        float: none;
+        width: 80px;
+    }
+    .subscript-text {
+        margin-top: 5px;
+        font-size: .45em;
+        font-weight: 500;
+        width: 150px;
+        position: relative;
+        left: 10px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 460px) {
+    #small-width {
+        width: 83.33333333%;
+        margin-left: 8.33333333%;
+    }
+}
+
+
+/************************************
+    Mobile (375x667) Portrait
+*************************************/
+
+@media (max-width: 765px) and (min-width: 321px) {
+    .center-image {
+        height: 100vh;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        align-content: center;
+        align-items: center;
+        position: inherit;
+    }
+    #main-content {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    #center-content {
+        position: relative;
+    }
+    .second-image {
+        display: block;
+        margin: 0 auto;
+        float: none !important;
+        width: 150px;
+        margin-top: 0;
+    }
+    .intro-content {
+        font-size: calc(1vw + 6px);
+        font-family: Trajan;
+    }
+    .second-text {
+        font-size: calc(1vw + 4px);
+        font-weight: 300;
+        font-family: 'Nunito Sans', sans-serif;
+        line-height: calc(1vw + 8px);
+    }
+    .second-content {
+        margin-top: 0px;
+        padding: 0;
+    }
+    .side-note {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: .5em;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    #img-1 {
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+    #img-2 {
+        margin-bottom: 10px;
+        position: relative;
+        bottom: 3px;
+    }
+    .submit-image {
+        float: none;
+        width: 80px;
+    }
+    .subscript-text {
+        margin-top: 5px;
+        font-size: .45em;
+        font-weight: 500;
+        width: 150px;
+        position: relative;
+        left: 10px;
+        text-align: center;
     }
 }
