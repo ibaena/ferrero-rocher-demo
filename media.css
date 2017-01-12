@@ -225,6 +225,7 @@
     #main-content {
         position: absolute;
         top: 0;
+        text-align: center;
     }
     #center-content {
         position: relative;
@@ -269,15 +270,18 @@
     .submit-image {
         float: none;
         width: 80px;
+        display: block;
+        margin: 0 auto;
     }
     .subscript-text {
         margin-top: 5px;
         font-size: .45em;
         font-weight: 500;
-        width: 150px;
+        width: 70%;
         position: relative;
-        left: 10px;
-        text-align: center;
+        left: 0;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -307,6 +311,7 @@
     }
     #main-content {
         position: absolute;
+        text-align: center;
 
     }
     #center-content {
@@ -352,14 +357,17 @@
     .submit-image {
         float: none;
         width: 80px;
+        display: block;
+        margin: 0 auto;
     }
     .subscript-text {
         margin-top: 5px;
         font-size: .45em;
         font-weight: 500;
-        width: 150px;
+        width: 70%;
         position: relative;
-        left: 10px;
-        text-align: center;
+        left: 0;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
