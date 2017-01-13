@@ -282,6 +282,10 @@
         margin-left: auto;
         margin-right: auto;
     }
+    .asterik {
+        font-family: Arial;
+        font-size:  6px;
+    }
 }
 
 @media (max-width: 460px) {
@@ -297,6 +301,10 @@
 *************************************/
 
 @media (max-width: 765px) and (min-width: 321px) {
+  .asterik {
+      font-family: Arial;
+      font-size:  7px;
+  }
     .center-image {
         display: block;
         height: 100%;
