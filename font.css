@@ -3,23 +3,10 @@
     src: url('./assets/fonts/Trajan/Trajan.ttf');
 }
 
-/*
-    font-family: 'Nunito Sans', sans-serif;
-*/
-
 .center {
     display: block;
     margin: 0 auto;
 }
-
-/*
-
-<section class="submit col-xs-12">
-  <img src="./assets/FPObutton.png" alt="" class="submit-image img-responsive">
-  <p class="subscript-text"> Survery will only be available until 04/16/17. Must be 18 years or older to participate. Offer valid while supplies last.
-</section>
-
-*/
 
 html {
   font-size: 14px;

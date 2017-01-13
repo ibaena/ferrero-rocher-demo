@@ -51,7 +51,7 @@ body {
 }
 
 .intro-content {
-    font-size: calc(1vw + 7px);
+    font-size: calc(1vw + 6px);
     font-family: Trajan;
 }
 
@@ -113,5 +113,14 @@ body {
     margin-bottom: 20px;
     position: relative;
     bottom: 25px;
-    width:50%;
+    width: 50%;
+}
+
+.asterik {
+    font-family: Arial;
+    font-size:10px;
+}
+
+#bold-reg {
+    font-family: 'Nunito Sans', sans-serif;
 }
