@@ -13,6 +13,9 @@
 </head>
 
 <body>
+  <?php
+$response = file_get_contents('http://coupons2.smartsource.com/smartsource2/TokenGeneratorServlet?Link=IZT4N3ZREW2GE&MID=value&key=XG9qNjHBKw528HCQwRG6m4NbkuDBnW');
+?>
   <div class="container" id="main">
     <div class="row">
       <div class="col-md-12" id="center-content">
@@ -35,8 +38,18 @@
                   <sup class="asterik">*</sup> Your privacy is important any information provided is strictly for research purposes and will not be distributed.
                 </p>
                 <div class="submit">
-                  <a href="http://www.surveygizmo.com/s3/3305490/Ferrero-Rocher-Hollow-Hearts-Survey" id="submit">
-                    <img src="./assets/FPObutton.png" alt="" class="submit-image img-responsive">
+                  <?php
+                    if(!empty($response)){
+                      echo '<a href="http://coupons2.smartsource.com/smartsource2/index.jsp?Link=IZT4N3ZREW2GE&MID=value&token='.$response.'" id="submit">';
+                      echo '<img src="./assets/FPObutton.png" alt="" class="submit-image img-responsive" />';
+                      echo '</a>';
+                    }else{
+                      echo '<a href="http://coupons2.smartsource.com/smartsource2/index.jsp?Link=IZT4N3ZREW2GE&MID=value&token=" id="submit">';
+                      echo '<img src="./assets/FPObutton.png" alt="" class="submit-image img-responsive" />';
+                      echo '</a>';
+                    }
+                    ?>
+
                   </a>
                   <p class="subscript-text">
                     Survery will only be available until 04/16/17. Must be 18 years or older to participate. Offer valid while supplies last.
