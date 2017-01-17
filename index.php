@@ -13,18 +13,12 @@
 </head>
 
 <body>
-  <script>
-
-    $.ajax({url: "http://coupons2.smartsource.com/smartsource2/TokenGeneratorServlet?Link=IZT4N3ZREW2GE&MID=value&key=XG9qNjHBKw528HCQwRG6m4NbkuDBnW", success: function(result){
-        console.log(result);
-    }});
-
-  </script>
+  <?php
+$response = file_get_contents('http://coupons2.smartsource.com/smartsource2/TokenGeneratorServlet?Link=IZT4N3ZREW2GE&MID=value&key=XG9qNjHBKw528HCQwRG6m4NbkuDBnW');
+?>
   <div class="container" id="main">
     <div class="row">
       <div class="col-md-12" id="center-content">
-
-
         <div class="col-md-6 col-md-offset-3 col-xs-12" id="main-content">
           <img src='./assets/background-center.png' alt="" class="center-image img-responsive">
           <div class="content-box col-md-12 col-md-offset-0 col-xs-8 col-xs-offset-2" id="small-width">
@@ -44,8 +38,18 @@
                   <sup class="asterik">*</sup> Your privacy is important any information provided is strictly for research purposes and will not be distributed.
                 </p>
                 <div class="submit">
-                  <a href="https://google.com">
-                    <img src="./assets/FPObutton.png" alt="" class="submit-image img-responsive">
+                  <?php
+                    if(!empty($response)){
+                      echo '<a href="http://coupons2.smartsource.com/smartsource2/index.jsp?Link=IZT4N3ZREW2GE&MID=value&token='.$response.'" id="submit">';
+                      echo '<img src="./assets/FPObutton.png" alt="" class="submit-image img-responsive" />';
+                      echo '</a>';
+                    }else{
+                      echo '<a href="http://coupons2.smartsource.com/smartsource2/index.jsp?Link=IZT4N3ZREW2GE&MID=value&token=" id="submit">';
+                      echo '<img src="./assets/FPObutton.png" alt="" class="submit-image img-responsive" />';
+                      echo '</a>';
+                    }
+                    ?>
+
                   </a>
                   <p class="subscript-text">
                     Survery will only be available until 04/16/17. Must be 18 years or older to participate. Offer valid while supplies last.
@@ -63,6 +67,5 @@
     </div>
   </div>
 </body>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/core.js"></script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 </html>
