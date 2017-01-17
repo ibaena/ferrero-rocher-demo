@@ -41,11 +41,11 @@ $response = file_get_contents('http://coupons2.smartsource.com/smartsource2/Toke
                   <?php
                     if(!empty($response)){
                       echo '<a href="http://coupons2.smartsource.com/smartsource2/index.jsp?Link=IZT4N3ZREW2GE&MID=value&token='.$response.'" id="submit">';
-                      echo '<img src="./assets/FPObutton.png" alt="" class="submit-image img-responsive" />';
+                      echo '<img src="./assets/GetButton.png" alt="" class="submit-image img-responsive" />';
                       echo '</a>';
                     }else{
                       echo '<a href="http://coupons2.smartsource.com/smartsource2/index.jsp?Link=IZT4N3ZREW2GE&MID=value&token=" id="submit">';
-                      echo '<img src="./assets/FPObutton.png" alt="" class="submit-image img-responsive" />';
+                      echo '<img src="./assets/GetButton.png" alt="" class="submit-image img-responsive" />';
                       echo '</a>';
                     }
                     ?>
