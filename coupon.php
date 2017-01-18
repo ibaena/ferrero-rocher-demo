@@ -30,7 +30,7 @@ $response = file_get_contents('http://coupons2.smartsource.com/smartsource2/Toke
               <p class="small-intro">YOUR OPINION IS VERY IMPORTANT TO US.</p>
             </section>
             <section class="second-content col-xs-12">
-              <div class="col-md-7 col-xs-12">
+              <div class="col-md-12 col-xs-12">
                 <div class="submit">
                   <?php
                     if(!empty($response)){
