@@ -28,7 +28,7 @@ $response = file_get_contents('http://coupons2.smartsource.com/smartsource2/Toke
             <section class="intro-content col-xs-12">
               THANK YOU FOR TAKING THE TIME TO TAKE OUR SURVEY FOR FERRERO ROCHER<sup id="bold-reg">&reg;</sup> VALENTINE'S DAY HOLLOW HEARTS!
               <p class="small-intro">YOUR OPINION IS VERY IMPORTANT TO US.</p>
-              <p>
+              <p class="small-intro">
                 To show our appreciation, please click on the button below to get your coupon for a FREE 12 count Ferrero Rocher® (5.3 OZ) or Ferrero Collection (4.6 OZ).
               </p>
             </section>
