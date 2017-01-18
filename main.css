@@ -116,9 +116,14 @@ body {
 
 .asterik {
     font-family: Arial;
-    font-size:  9px;
+    font-size: 9px;
 }
 
 #bold-reg {
     font-family: 'Nunito Sans', sans-serif;
+}
+
+#submit-coupon {
+    display: block;
+    margin: 0 auto;
 }

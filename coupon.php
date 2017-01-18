@@ -34,20 +34,17 @@ $response = file_get_contents('http://coupons2.smartsource.com/smartsource2/Toke
                 <div class="submit">
                   <?php
                     if(!empty($response)){
-                      echo '<a href="http://coupons2.smartsource.com/smartsource2/index.jsp?Link=IZT4N3ZREW2GE&MID=value&token='.$response.'" id="submit">';
+                      echo '<a href="http://coupons2.smartsource.com/smartsource2/index.jsp?Link=IZT4N3ZREW2GE&MID=value&token='.$response.'" id="submit-coupon">';
                       echo '<img src="./assets/GETButton.png" alt="" class="submit-image img-responsive" />';
                       echo '</a>';
                     }else{
-                      echo '<a href="http://coupons2.smartsource.com/smartsource2/index.jsp?Link=IZT4N3ZREW2GE&MID=value&token=" id="submit">';
+                      echo '<a href="http://coupons2.smartsource.com/smartsource2/index.jsp?Link=IZT4N3ZREW2GE&MID=value&token=" id="submit-coupon">';
                       echo '<img src="./assets/GETButton.png" alt="" class="submit-image img-responsive" />';
                       echo '</a>';
                     }
                     ?>
 
                   </a>
-                  <p class="subscript-text">
-                    Survery will only be available until 04/16/17. Must be 18 years or older to participate. Offer valid while supplies last.
-                  </p>
                 </div>
               </div>
             </section>
