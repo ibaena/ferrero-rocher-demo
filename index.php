@@ -29,7 +29,7 @@
             <section class="second-content col-xs-12">
               <div class="col-md-7 col-xs-12">
                 <p class="second-text">
-                  This brief online survey will gather important information<sup class="asterik">*</sup> on your experience with Ferrero Rocher<sup>®</sup> Valentine's Day Hollow Hearts. To show our appreciation, you will recieve a coupon for a free 12 count Ferrero Rocher<sup>®</sup>                  (5.3 OZ) or Ferrero Collection (4.6 OZ) after you complete this survey. This survey should take only about 5 minutes to complete.
+                  This brief online survey will gather important information<sup class="asterik">*</sup> on your experience with Ferrero Rocher<sup>®</sup> Valentine's Day Hollow Hearts. To show our appreciation, you will recieve a coupon for a free 12 count Ferrero Rocher<sup>®</sup>                  (5.3 OZ) or Ferrero Collection (4.6 OZ) after you complete this survey. This survey should take only a few minutes to complete.
                 </p>
                 <p class="side-note">
                   <sup class="asterik">*</sup> Your privacy is important any information provided is strictly for research purposes and will not be distributed.
