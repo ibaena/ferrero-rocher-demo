@@ -20,7 +20,7 @@ $response = file_get_contents('http://coupons2.smartsource.com/smartsource2/Toke
     <div class="row">
       <div class="col-md-12" id="center-content">
         <div class="col-md-6 col-md-offset-3 col-xs-12" id="main-content">
-          <img src='./assets/background-center.png' alt="" class="center-image img-responsive">
+          <img src='./assets/background-center.png' alt="" class="center-image img-responsive">fall
           <div class="content-box col-md-12 col-md-offset-0 col-xs-8 col-xs-offset-2" id="small-width">
             <img src="./assets/Valentines-Day.png" alt="" class="center img-responsive" id="img-1">
 
