@@ -44,7 +44,7 @@
                 </div>
               </div>
               <div class="col-md-5 col-xs-12">
-                <img src="./assets/heart.png" alt="" class="second-image img-responsive pull-right">
+                <img src="./assets/heart.png" alt="" class="second-image img-responsive">
               </div>
             </section>
           </div>
